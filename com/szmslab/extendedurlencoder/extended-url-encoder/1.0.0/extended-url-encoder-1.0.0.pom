@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.szmslab.extendedurlencoder</groupId>
+  <artifactId>extended-url-encoder</artifactId>
+  <version>1.0.0</version>
+  <name>Extended URL Encoder</name>
+  <description>A URL encoding utility that extends the function of java.net.URLEncoder.</description>
+  <url>https://github.com/szmslab/extended-url-encoder</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/mit-license</url>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>org.spockframework</groupId>
+      <artifactId>spock-core</artifactId>
+      <version>1.1-groovy-2.4</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
